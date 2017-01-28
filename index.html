@@ -4,14 +4,20 @@
 <head>
     <meta charset="utf-8">
     <title></title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.js" charset="utf-8"></script>
     <script src="dist/bundle.js" charset="utf-8"></script>
+    <base href="/">
 </head>
 
 <body>
-    <div ng-app="photogramm">
-        <header></header>
-        <app-component></app-component>
+    <div ng-app="app">
+        <div class="container">
+            <div ng-view></div>
+        </div>
     </div>
 </body>
 

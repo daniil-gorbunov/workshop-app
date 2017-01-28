@@ -1,0 +1,20 @@
+<div>
+    <div ng-show="vm.showWarnMsg">
+        <warn-msg-component></warn-msg-component>
+    </div>
+    <p>
+        <label>
+            Login:
+            <input type="text" ng-model="vm.login">
+        </label>
+    </p>
+    <p>
+        <label>
+            Password:
+            <input type="password" ng-model="vm.password">
+        </label>
+    </p>
+    <p>
+        <input type="button" value="Log In" ng-click="vm.logIn()">
+    </p>
+</div>

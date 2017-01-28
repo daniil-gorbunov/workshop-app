@@ -7,9 +7,8 @@ class AppController {
 const appComponent = {
   controller: AppController,
   template: `
-    <div>
-      <h1>{{ $ctrl.message }}</h1>
-    </div>
+    <a href="auth">Auth</a>
+    <a href="list">List</a>
   `
 };
 
